@@ -1,6 +1,6 @@
 body {
   font-family: Lato;
-  font-weight: 100;
+  font-weight: 200;
 }
 
 .content-wrapper {
@@ -8,8 +8,22 @@ body {
   margin: 0 auto;
 }
 
+.content-wrapper .links a {
+  display: block;
+}
+
+.project-link {
+  
+}
+
 h1 {
   font-family: Cinzel;  
   font-size: 40px;
   color: purple;
+}
+
+h2 {
+  font-family: Cinzel;
+  color: purple;
+  font-weight: 200
 }
