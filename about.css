@@ -1,3 +1,10 @@
-.about-message {
-    color: brown;
+body {
+  font-family: Lato sans-serif;
+}
+h1 {
+    font-family: Cinzel Bitter serif;
+}
+
+.a {
+  font-family: Lato sans-serif;
 }

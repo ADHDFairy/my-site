@@ -1,8 +1,15 @@
-.message {
-    color: orange;
+body {
+  font-family: Lato;
+  font-weight: 100;
+}
+
+.content-wrapper {
+  max-width: 800px;
+  margin: 0 auto;
 }
 
 h1 {
-    font-size: 40px;
-    color: red;
+  font-family: Cinzel;  
+  font-size: 40px;
+  color: purple;
 }
