@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="survey.css">
+    <title>Survey</title>
+  </head>
+  <body>
+    <div class="container">
+    <h1 id="title">Survey</h1>
+    <p id="description">Please fill out this survey!</p>
+    <form id="survey-form">
+
+      <!-- all of the input fields need placeholder text -->
+      <!-- Name id="name-label"  -->
+      <div>
+        <label id="name-label" for="name">Name</label>
+        <input placeholder="Name" id="name" type="text" required>
+      </div>
+
+      <!-- Email (with formatting) id="email-label" -->
+      <div>
+        <label id="email-label" for="email">Email</label>
+        <input placeholder="Email" id="email" type="email" required>
+      </div>
+
+      <!-- Age (type="number" with validation and min-max) id="number-label" -->
+      <div>
+        <label id="number-label" for="number">Age</label>
+        <input placeholder="Age" id="number" type="number" min="1" max="200">
+      </div>
+
+      <!-- Select dropdown with at least 2 options -->
+      <div>
+        <label for="dropdown">Pronouns</label>
+        <select id="dropdown">
+          <option>Select Your Prounouns</option>
+          <option>They/Them</option>
+          <option>She/Her</option>
+          <option>He/Him</option>
+          <option>Other</option>
+        </select>
+      </div>
+
+      <!-- 2 radio buttons grouped together with the name attribute -->
+      <fieldset>
+        <legend> Would You Rather?</legend>
+        <input id="telekenesis" type="radio" name="WYR" class="inline" value="telekenesis" /> 
+        <label for="telekenesis">Have Telekenesis</label>
+        <input id="telepathy" type="radio" name="WYR" class="inline" value="telekenesis" /> 
+        <label for="telekenesis">Have Telepathy</label>
+      </fieldset>
+
+      <!-- Checkboxes with a value attribute -->
+      <fieldset>
+        <legend>Select all the colors you like:</legend>
+        <input id="purple" type="checkbox" value="purple">
+        <label for="purple">Purple</label>
+        <input id="blue" type="checkbox" value="blue">
+        <label for "blue">Blue</label>
+        <input id="green" type="checkbox" value="green">
+        <label for "green">Green</label>
+        <input id="yellow" type="checkbox" value="yellow">
+        <label for "yellow">Yellow</label>
+        <input id="orange" type="checkbox" value="orange">
+        <label for "orange">Orange</label>
+        <input id="red" type="checkbox" value="red">
+        <label for "red">Red</label>
+      </fieldset>
+
+      <!-- text area for additional comments -->
+      <div>
+        <label>Anything else you'd like to share?</label>
+          <textarea name="textarea" rows="3" cols="30" placeholder="type here..."></textarea>
+      </div>
+      
+      <!-- submit button with id="submit" -->
+      <input id="submit" type="submit" value="Submit" />
+    </form>
+    </div>
+  </body>
+</html>
