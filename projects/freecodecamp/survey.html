@@ -10,30 +10,29 @@
     <p id="description">Please fill out this survey!</p>
     <form id="survey-form">
 
-      <!-- all of the input fields need placeholder text -->
       <!-- Name id="name-label"  -->
       <div>
-        <label id="name-label" for="name">Name</label>
-        <input placeholder="Name" id="name" type="text" required>
+        <label id="name-label" for="name" class="text-labels">Name</label>
+        <input placeholder="Enter your name" id="name" type="text" required class="full">
       </div>
 
       <!-- Email (with formatting) id="email-label" -->
       <div>
-        <label id="email-label" for="email">Email</label>
-        <input placeholder="Email" id="email" type="email" required>
+        <label id="email-label" for="email" class="text-labels">Email</label>
+        <input placeholder="Enter your email" id="email" type="email" required class="full">
       </div>
 
       <!-- Age (type="number" with validation and min-max) id="number-label" -->
       <div>
-        <label id="number-label" for="number">Age</label>
-        <input placeholder="Age" id="number" type="number" min="1" max="200">
+        <label id="number-label" for="number" class="text-labels">Age</label>
+        <input placeholder="Age" id="number" type="number" min="1" max="200" class="full">
       </div>
 
       <!-- Select dropdown with at least 2 options -->
       <div>
-        <label for="dropdown">Pronouns</label>
-        <select id="dropdown">
-          <option>Select Your Prounouns</option>
+        <label for="dropdown" class="text-labels">Pronouns</label>
+        <select id="dropdown" class="full">
+          <option>Select your prounouns</option>
           <option>They/Them</option>
           <option>She/Her</option>
           <option>He/Him</option>
@@ -47,7 +46,7 @@
         <input id="telekenesis" type="radio" name="WYR" class="inline" value="telekenesis" /> 
         <label for="telekenesis">Have Telekenesis</label>
         <input id="telepathy" type="radio" name="WYR" class="inline" value="telekenesis" /> 
-        <label for="telekenesis">Have Telepathy</label>
+        <label for="telepathy">Have Telepathy</label>
       </fieldset>
 
       <!-- Checkboxes with a value attribute -->
@@ -69,7 +68,7 @@
 
       <!-- text area for additional comments -->
       <div>
-        <label>Anything else you'd like to share?</label>
+        <label class="text-labels">Anything else you'd like to share?</label>
           <textarea name="textarea" rows="3" cols="30" placeholder="type here..."></textarea>
       </div>
       
