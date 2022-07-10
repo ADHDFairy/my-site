@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "serve": "live-server .",
-    "start": "live-server .",
+    "serve": "live-server . --base '/my-site'",
+    "start": "live-server . --base '/my-site'",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
