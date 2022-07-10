@@ -4,15 +4,15 @@ body {
     text-align: center;
     background-attachment: fixed;
     background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
   
   .container {
-    width: 90%;
+    width: 80%;
     margin: auto;
     padding: 20px;
-    max-width: 600px;
+    max-width: 480pt;
     background-color: #758186f0;
     border-radius: 14px;
   }
@@ -41,6 +41,7 @@ body {
   .text-labels {
     display: block;
     text-align: left;
+    margin-bottom: 0.5rem;
   }
   
   .full {
@@ -50,8 +51,10 @@ body {
     border: none;
   }
   
-  input::placeholder {
+  input::placeholder, #dropdown {
     text-indent: 5px;
+    font-size: 10pt;
+    color: darkgrey;
   }
   
   
