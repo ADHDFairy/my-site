@@ -76,6 +76,18 @@ textarea::placeholder {
 .inline {
   width: unset;
   vertical-align: middle;
-  margin: 0 0.5em 0 0;
   display: inline-block;
+}
+
+.field-group {
+  display: block;
+  justify-content: left;
+}
+
+.field-group .inline,
+.field-group .text-labels {
+  display: inline-block;
+  margin: 0.3;
+  vertical-align: middle;
+  justify-content: left;
 }
