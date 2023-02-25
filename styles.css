@@ -12,7 +12,9 @@ body {
   display: block;
 }
 
-
+footer {
+  text-align: center;
+}
 
 h1 {
   font-family: Cinzel;  
