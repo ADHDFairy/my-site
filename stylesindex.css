@@ -18,6 +18,19 @@ body {
   justify-content: space-between;
 }
 
+.topnav a {
+  color:  #809098;
+  text-decoration: none;
+  font-weight: bold;
+
+}
+
+.topnav a.active {
+  color:  #435762;
+  border-bottom: 2px solid #4db3e3;
+  padding-bottom: 6px;
+}
+
 .content-wrapper {
   max-width: 1000px;
   margin: 0 auto;
