@@ -5,9 +5,15 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 body {
   font-family: Lato;
   font-weight: 300;
+}
+
+.topnav {
+  background-color: whitesmoke;
+  overflow: hidden;
 }
 
 .content-wrapper {
