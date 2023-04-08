@@ -15,7 +15,7 @@ body {
   background-color: whitesmoke;
   overflow: hidden;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   padding: 20px;
   max-width: 1000px;
   margin: 0 auto;
